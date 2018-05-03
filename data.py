@@ -26,3 +26,5 @@ class DataSet(object):
     capacity = min_after_dequeue + 400 * batch_size
     self.hr_images, self.lr_images = tf.train.shuffle_batch([hr_image, lr_image], batch_size=batch_size, capacity=capacity,
       min_after_dequeue=min_after_dequeue)
+
+

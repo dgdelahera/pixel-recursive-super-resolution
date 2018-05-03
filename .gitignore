@@ -3,3 +3,4 @@ samples/*
 models/*
 data/*
 tools/*.pyc
+.idea
